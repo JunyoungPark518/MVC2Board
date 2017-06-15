@@ -18,6 +18,7 @@ public class HomeController extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession session = request.getSession();
 		Separator.init(request, response);
+		System.out.println(Separator.command.getAction());
 		switch (Separator.command.getAction()) {
 		case "move":
 			DispatcherServlet.send(request, response);

@@ -3,7 +3,7 @@ package util;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import domain.Command;
+import command.Command;
 import factory.CommandFactory;
 
 public class Separator {

@@ -1,6 +1,5 @@
 package domain;
 
-
 public class Article {
 	String seq, id, title, content, regdate, readCount;
 
